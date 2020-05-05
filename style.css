@@ -180,16 +180,6 @@ h1 {
   }
 }
 
-@media (max-height: 900px)
-{
-  #t
-  {
-    position absolute;
-    top: 700px;
-    left: 16px;
-  }
-}
-
 .welcome-section > p {
   font-size: 3rem;
   font-weight: 200;
