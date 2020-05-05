@@ -198,6 +198,8 @@ h1 {
     top: 845px;
     left: 16px;
   }
+#navbar{height: 100px;}
+.nav-list{font-size: 100px;}
 }
 .welcome-section > p {
   font-size: 3rem;
