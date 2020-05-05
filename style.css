@@ -170,14 +170,32 @@ h1 {
   bottom: 8px;
   left: 16px;
 }
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 2)
+@media (max-width: 28.75em)
+{
   #t
   {
-    position absolute;
-    top: 1000px;
+    position: absolute;
+    top: 845px;
+    left: 16px;
+  }
+}
+
+
+@media (max-width: 75em)
+{
+  #t
+  {
+    position: absolute;
+    top: 845px;
+    left: 16px;
+  }
+}
+@media (max-width: 61.25em)
+{
+  #t
+  {
+    position: absolute;
+    top: 845px;
     left: 16px;
   }
 }
