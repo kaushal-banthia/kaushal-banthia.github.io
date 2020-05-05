@@ -170,21 +170,21 @@ h1 {
   bottom: 8px;
   left: 16px;
 }
-@media (max-width: 600px)
+@media (max-width: 800px)
 {
   #t
   {
     position absolute;
-    top: 700px;
+    top: 1000px;
     left: 16px;
   }
 }
-@media (max-height: 600px)
+@media (max-height: 700px)
 {
   #t
   {
     position absolute;
-    top: 700px;
+    top: 1000px;
     left: 16px;
   }
 }
