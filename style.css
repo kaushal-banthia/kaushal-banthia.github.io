@@ -170,6 +170,15 @@ h1 {
   bottom: 8px;
   left: 16px;
 }
+@media (max-width: 1500px)
+{
+  #t
+  {
+    position absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+}
 
 .welcome-section > p {
   font-size: 3rem;
