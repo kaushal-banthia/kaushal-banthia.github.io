@@ -83,7 +83,36 @@ h2 {
   text-align: center;
 }
 
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 3.7s steps(55, start), blink .75s step-end infinite;
+    white-space: nowrap;
+font-family: monospace;
+    font-size: 69px;
+    font-weight: 700;
+    border-right: 4px solid orange;
+    box-sizing: border-box;
+}
 
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 80% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: orange; 
+    }
+}
 
 h2 {
   font-size: 4.2rem;
@@ -178,6 +207,18 @@ h1 {
     top: 846px;
     left: 16px;
   }
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 3.7s steps(55, start), blink .75s step-end infinite;
+    white-space: nowrap;
+font-family: monospace;
+    font-size: 50px;
+    font-weight: 700;
+    border-right: 4px solid orange;
+    box-sizing: border-box;
+}
 }
 
 
@@ -189,6 +230,18 @@ h1 {
     top: 845px;
     left: 16px;
   }
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 3.7s steps(55, start), blink .75s step-end infinite;
+    white-space: nowrap;
+font-family: monospace;
+    font-size: 50px;
+    font-weight: 700;
+    border-right: 4px solid orange;
+    box-sizing: border-box;
+}
 }
 @media (max-width: 61.25em)
 {
@@ -198,6 +251,18 @@ h1 {
     top: 845px;
     left: 16px;
   }
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 3.7s steps(55, start), blink .75s step-end infinite;
+    white-space: nowrap;
+font-family: monospace;
+    font-size: 50px;
+    font-weight: 700;
+    border-right: 4px solid orange;
+    box-sizing: border-box;
+}
 }
 .welcome-section > p {
   font-size: 3rem;
