@@ -234,6 +234,12 @@ h1 {
 }
 @media (max-width: 28.75em)
 {
+  #pokemon
+  {
+    position: absolute;
+    left: 10px;
+  }
+
   #t
   {
     position: absolute;
@@ -257,6 +263,12 @@ font-family: monospace;
 
 @media (max-width: 75em)
 {
+  #pokemon
+  {
+    position: absolute;
+    left: 10px;
+  }
+
   #t
   {
     position: absolute;
@@ -284,6 +296,13 @@ font-family: monospace;
     top: 845px;
     left: 16px;
   }
+
+  #pokemon
+  {
+    position: absolute;
+    left: 10px;
+  }
+
 .typewriter-text {
     display: inline-block;
   	overflow: hidden;
