@@ -177,7 +177,9 @@ bottom: 100px;
     display: inline-block;
   	overflow: hidden;
   	letter-spacing: 2px;
- 	animation: typing 3.7s steps(55, start), blink .75s step-end infinite;
+ 	animation: typing 3.7s steps(55, start), blink .75s step-end 
+
+infinite;
     white-space: nowrap;
 font-family: 'Architects Daughter', cursive;
     font-size: 50px;
@@ -193,14 +195,16 @@ font-family: 'Architects Daughter', cursive;
   #t
   {
     position: absolute;
-    top: 480px;
+    top: 460px;
     left: 16px;
   }
 .typewriter-text {
     display: inline-block;
   	overflow: hidden;
   	letter-spacing: 2px;
- 	animation: typing 3.7s steps(55, start), blink .75s step-end infinite;
+ 	animation: typing 3.7s steps(55, start), blink .75s step-end 
+
+infinite;
     white-space: nowrap;
 font-family: 'Architects Daughter', cursive;
     font-size: 64px;
@@ -222,12 +226,39 @@ font-family: 'Architects Daughter', cursive;
     display: inline-block;
   	overflow: hidden;
   	letter-spacing: 2px;
- 	animation: typing 3.7s steps(55, start), blink .75s step-end infinite;
+ 	animation: typing 3.7s steps(55, start), blink .75s step-end 
+
+infinite;
     white-space: nowrap;
 font-family: 'Architects Daughter', cursive;
     font-size: 63px;
     font-weight: 700;
     border-right: 4px orange;
+    box-sizing: border-box;
+}
+}
+
+@media (min-width: 90em)
+{
+  #t
+  {
+    position: absolute;
+    top: 600px;
+    left: 16px;
+  }
+
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 3.7s steps(55, start), blink .75s step-end 
+
+infinite;
+    white-space: nowrap;
+font-family: 'Architects Daughter', cursive;
+    font-size: 93px;
+    font-weight: 700;
+    border-right: 40px orange;
     box-sizing: border-box;
 }
 }
@@ -245,7 +276,9 @@ font-family: 'Architects Daughter', cursive;
     display: inline-block;
   	overflow: hidden;
   	letter-spacing: 2px;
- 	animation: typing 3.7s steps(55, start), blink .75s step-end infinite;
+ 	animation: typing 3.7s steps(55, start), blink .75s step-end 
+
+infinite;
     white-space: nowrap;
 font-family: 'Architects Daughter', cursive;
     font-size: 170px;
