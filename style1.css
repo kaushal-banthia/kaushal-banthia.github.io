@@ -164,6 +164,70 @@ h1 {
   bottom: 8px;
   left: 16px;
 }
+
+/* Contact section */
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  padding: 0 2rem;
+  background: var(--main-gray);
+}
+
+.contact-section-header > h2 {
+  font-size: 6rem;
+}
+
+@media (max-width: 28.75em) {
+  .contact-section-header > h2 {
+    font-size: 4rem;
+  }
+}
+
+.contact-section-header > p {
+  font-style: italic;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+
+.contact-details {
+  font-size: 2.4rem;
+  text-shadow: 2px 2px 3px #1f1f1f;
+  transition: transform 0.3s ease-out;
+}
+
+.contact-details:hover {
+  transform: translateY(10px);
+  text-shadow: 5px 5px black;
+}
+
+
+.welcome-section > p {
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  color: #ec4d37;
+}
+
+.welcome-section > center {
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  color: #ec4d37;
+}
+
 @media (max-width: 28.75em)
 {
   #t
@@ -236,6 +300,27 @@ font-family: 'Architects Daughter', cursive;
     border-right: 4px orange;
     box-sizing: border-box;
 }
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60vh;
+  background-color: #1d1b1b;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 30vh;
+  padding: 0 2rem;
+  background: var(--main-gray);
+}
 }
 
 @media (min-width: 90em)
@@ -260,6 +345,27 @@ font-family: 'Architects Daughter', cursive;
     font-weight: 700;
     border-right: 40px orange;
     box-sizing: border-box;
+}
+
+#logo
+{
+    width: 40%;
+    height: 40%;
+}
+
+.welcome-section > center
+{
+    font-size: 45px;
+}
+
+.contact-section-header > h2
+{
+    font-size: 125px;
+}
+
+.contact-section-header > p
+{
+    font-size: 35px;
 }
 }
 
@@ -286,67 +392,25 @@ font-family: 'Architects Daughter', cursive;
     border-right: 40px orange;
     box-sizing: border-box;
 }
+
+#logo
+{
+    width: 50%;
+    height: 50%;
 }
 
-
-.welcome-section > p {
-  font-size: 3rem;
-  font-weight: 200;
-  font-style: italic;
-  color: #ec4d37;
+.welcome-section > center
+{
+    font-size: 70px;
 }
 
-.welcome-section > center {
-  font-size: 3rem;
-  font-weight: 200;
-  font-style: italic;
-  color: #ec4d37;
+.contact-section-header > h2
+{
+    font-size: 225px;
 }
 
-/* Contact section */
-
-.contact-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 100%;
-  height: 80vh;
-  padding: 0 2rem;
-  background: var(--main-gray);
+.contact-section-header > p
+{
+    font-size: 65px;
 }
-
-.contact-section-header > h2 {
-  font-size: 6rem;
-}
-
-@media (max-width: 28.75em) {
-  .contact-section-header > h2 {
-    font-size: 4rem;
-  }
-}
-
-.contact-section-header > p {
-  font-style: italic;
-}
-
-.contact-links {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  max-width: 980px;
-  margin-top: 4rem;
-  flex-wrap: wrap;
-}
-
-.contact-details {
-  font-size: 2.4rem;
-  text-shadow: 2px 2px 3px #1f1f1f;
-  transition: transform 0.3s ease-out;
-}
-
-.contact-details:hover {
-  transform: translateY(10px);
-  text-shadow: 5px 5px black;
 }
