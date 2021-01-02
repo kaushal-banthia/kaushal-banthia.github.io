@@ -184,6 +184,11 @@ h1 {
   left: 16px;
 }
 
+.card-text
+{
+  font-size: 20;
+}
+
 /* Contact section */
 
 .contact-section {
