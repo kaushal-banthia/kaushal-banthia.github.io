@@ -1,2 +1,2 @@
-# kaushal-banthia.github.io
-My Website
+# My Website
+Link: kaushal-banthia.github.io
